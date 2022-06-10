@@ -6,8 +6,8 @@ then
   exit 1
 fi
 
-export CC=/dt8/usr/bin/gcc
-export GCC_HOST_COMPILER_PATH=/dt8/usr/bin/gcc
+export CC=/dt11/usr/bin/gcc
+export GCC_HOST_COMPILER_PATH=/dt11/usr/bin/gcc
 export PYENV_ROOT="/pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
