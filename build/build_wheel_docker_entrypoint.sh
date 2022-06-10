@@ -10,6 +10,7 @@ export CC=/dt11/usr/bin/gcc
 export GCC_HOST_COMPILER_PATH=/dt11/usr/bin/gcc
 export PYENV_ROOT="/pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
+export LD_LIBRARY_PATH="/dt11/usr/lib:/dt11/lib:$LD_LIBRARY_PATH"
 eval "$(pyenv init -)"
 
 PY_VERSION="$1"
