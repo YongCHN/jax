@@ -1,4 +1,4 @@
-FROM gcr.io/tensorflow-testing/nosla-cuda10.0-cudnn7-ubuntu16.04-manylinux2010
+FROM gcr.io/tensorflow-testing/nosla-cuda10.0-cudnn7-ubuntu16.04-manylinux2010:0.1
 LABEL maintainer "Matt Johnson <mattjj@google.com>"
 
 WORKDIR /
