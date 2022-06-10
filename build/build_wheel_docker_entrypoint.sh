@@ -15,7 +15,7 @@ eval "$(pyenv init -)"
 PY_VERSION="$1"
 echo "Python version $PY_VERSION"
 
-git clone https://github.com/google/jax /build/jax
+git clone https://github.com/YongCHN/jax /build/jax
 cd /build/jax/build
 
 mkdir /build/tmp
